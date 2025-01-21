@@ -48,21 +48,22 @@ Ce projet consiste à implémenter une intelligence artificielle capable de joue
    ```bash
    javac *.java
 2. Lancer le programme :
+   ```bash
    java Connect4UI
-3. Suivre les instructions dans l'interface graphique.
+4. Suivre les instructions dans l'interface graphique.
 
 ## Stratégie de l'IA
-** Heuristique des cases : **
+**Heuristique des cases :**
 
 Chaque case a un poids basé sur le nombre d'alignements possibles.
 Les colonnes centrales sont privilégiées pour maximiser les chances de victoires diagonales.
 
-** Recherche alpha-bêta : **
+**Recherche alpha-bêta :**
 
 Exploration des coups possibles en profondeur pour anticiper les meilleurs choix.
 Optimisation des performances grâce à un élagage efficace.
  
-** Gestion des états de croyance : **
+**Gestion des états de croyance :**
 
 Les coups adverses possibles sont simulés pour réduire l'incertitude.
 
